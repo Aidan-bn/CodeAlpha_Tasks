@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="header-pages">
+      <nav>
+        <!-- <strong class="logo">BOt</strong> -->
+        <img src="../images/logo.png" alt="logo" class="logo" />
+        <div class="nav-list">
+          <menu>
+            <a href="../index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="order.html">Order</a>
+          </menu>
+          <div class="nav-action">
+            <img src="../images/notification.svg" alt="bell" class="bell" />
+            <a href="../pages/login.html" class="btn-login">Log in</a>
+          </div>
+        </div>
+      </nav>
+      <form class="form-login formLogin">
+        <label for="user-name">
+          User Name:
+          <input type="text" name="email" placeholder="Enter user name" />
+        </label>
+        <label for="user-password">
+          Password:
+          <input type="password" name="password" placeholder="Enter Password" />
+        </label>
+        <div class="div-login ">
+          <button class="btn-login btnlogin">Log In</button>
+          <a href="" class="link-register">Register</a>
+        </div>
+      </form>
+      <div class="register-div">
+            <div class="register">
+               <button class="btn-close">X</button>
+              <form action="" class="form-login overlay form-register">
+                <label for="user-name">
+                  Full Name:
+                  <input type="text" name="name" placeholder="Enter names" />
+                </label>
+                <label for="email">
+                  Email:
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Enter email address"
+                  />
+                </label>
+                <label for="phone">
+                  Phone:
+                  <input
+                    type="text"
+                    name="phone"
+                    placeholder="Enter phone number"
+                  />
+                </label>
+                <label for="password">
+                  Password:
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Enter Password"
+                  />
+                </label>
+                <div class="div-login">
+                  <button class="btn-register">Register</button>
+                </div>
+              </form>
+            </div>
+          </div>
+    </header>
+    <script src="../script.js"></script>
+  </body>
+</html>
