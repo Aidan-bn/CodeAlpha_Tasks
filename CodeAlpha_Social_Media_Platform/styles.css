@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 1rem;
+  background-image: url("./assets/images/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.landing-text {
+  margin-top: 2rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.landing-text > h1 {
+  font-size: 5rem;
+  margin-bottom: 1.4rem;
+}
+
+.landing-text > a {
+  margin-top: 1rem;
+  background-color: #ca3b03;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  color: #f8f8f8;
+  font-weight: 700;
+}
+
+.logo {
+  width: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #faebd7; */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.notification {
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login {
+  background-color: #ca3b03;
+  color: #f8f8f8;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* friends section */
+.friends {
+  min-height: 100dvh;
+  padding: 1.5rem;
+  background-image: url("./assets/images/bg-friend.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  place-items: center;
+}
+
+.search {
+  background-color: #ca3b0381;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 40%;
+  margin: 1rem auto;
+}
+
+.search > label {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+input {
+  padding: 7px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.img-search {
+  width: 40px;
+  padding: 0.1rem;
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* connection panel */
+.connections {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  border: 1px solid;
+}
+
+.friends-list,
+.posts,
+.activities {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  height: fit-content;
+}
+
+.friend-div {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.img-person,
+.post-img {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  background-color: #0000005d;
+  border-radius: 50%;
+}
+
+.posts {
+  width: 60%;
+  border: 1px solid;
+}
+
+.post-container {
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header > button {
+  align-self: flex-end;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  background-color: #ca3b03;
+  border-radius: 6px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.post-header > p {
+  display: block;
+  padding: 1rem 0;
+  margin-left: 2rem;
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.commenter {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.commenter-img {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.activities {
+  width: 20%;
+}
+
+.login-div {
+  position: absolute;
+}
+
+.login-form, .register-form {
+  position: relative;
+  background-color: #f1f1f1d0;
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+  top: 20%;
+} 
+
+.register-form {
+  width: 70%;
+}
+
+.login-lbl {
+  margin-bottom: 1rem;
+}
+
+.login-input, .register-input {
+  /* width: 100%; */
+  background-color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding: 10px;
+}
+
+.btn-login, .btn-register {
+  width: 100%;
+  background-color: #ca3b03;
+  border: none;
+  padding: 10px;
+  margin: 1rem 0;
+  color: #f1f1f1;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+}
+.register-link {
+  text-align: center;
+  place-content: center;
+  color: red;
+  margin: 0.5rem 0;
+}
+
+.registerLink {
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+}
