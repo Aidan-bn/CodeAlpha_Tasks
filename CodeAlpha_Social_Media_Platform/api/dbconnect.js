@@ -1,5 +1,5 @@
 const pg = require('pg');
-const { Client } = require(pg);
+const { Client } = require('pg');
 
 const dbInfo = {
   user: "postgres",
