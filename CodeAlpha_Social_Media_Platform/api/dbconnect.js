@@ -1,8 +1,9 @@
 const pg = require('pg');
+const { Client } = require('pg');
 
 const dbInfo = {
-  user: "developer",
-  password: "developer",
+  user: "postgres",
+  password: "postgres",
   host: "localhost",
   port: "5433",
   database: "chat"
